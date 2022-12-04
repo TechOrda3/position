@@ -1,0 +1,30 @@
+//Live Sass Compiler
+
+body {
+  margin: 0;
+
+  ul {
+    list-style: none;
+
+    @media (max-width: 500px) {
+      margin: 24px;
+    }
+  }
+
+  @media (max-width: 500px) {
+    margin: 24px;
+  }
+}
+
+.items {
+  background: #3b3b4f;
+  height: 200px;
+  display: flex;
+
+  .item {
+    background: #f5f6f7;
+    border: 1px solid darkred;
+    font-size: 24px;
+    flex-basis: 100%;
+  }
+}

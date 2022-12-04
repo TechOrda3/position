@@ -1,0 +1,20 @@
+body {
+  margin: 0;
+}
+body ul {
+  list-style: none;
+}
+
+.items {
+  background: #3b3b4f;
+  height: 200px;
+  display: flex;
+}
+.items .item {
+  background: #f5f6f7;
+  border: 1px solid darkred;
+  font-size: 24px;
+  flex-basis: 100%;
+}
+
+/*# sourceMappingURL=index.css.map */
